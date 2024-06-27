@@ -10,6 +10,9 @@ h1,h2 {
 .pedidos{
 background-color: rgb(143, 78, 33);
 }
+.sell{
+    background-color: rgb(143, 78, 33);
+}
 .coffi_navbar{
     display: flex;
     justify-content: center;
@@ -19,10 +22,13 @@ background-color: rgb(143, 78, 33);
     display: flex;
     justify-content: center;
 }
+    
 a{
     font-size: 2rem;
     margin: 1rem;
     text-decoration: none;
+    color: rgb(0, 255, 0) ;
+    
 }
 .color{
 
@@ -56,4 +62,29 @@ img{
     background-color: rgb(143, 78, 33);
 
     border-radius: 15px;
+}
+
+
+
+
+.form_sell{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px red;
+
+
+}
+.label_form{
+    justify-content: end;
+}
+label{
+    color: green;
+}
+.main_form{
+    display: flex;
+    justify-content: center;
 }
