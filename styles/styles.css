@@ -1,0 +1,59 @@
+body{
+}
+h1,h2 {
+    display: flex;
+    justify-content: center;
+}
+.home_coffi{
+    background-color: rgb(143, 78, 33);
+}
+.pedidos{
+background-color: rgb(143, 78, 33);
+}
+.coffi_navbar{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(221, 137, 89);
+}
+.coffi_title{
+    display: flex;
+    justify-content: center;
+}
+a{
+    font-size: 2rem;
+    margin: 1rem;
+    text-decoration: none;
+}
+.color{
+
+}
+.informacion_grid{
+    display: grid;;
+}
+.info_grid_1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.info_grid_2{
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+img{
+    width: 50%;
+}
+.navbar_button1{
+    appearance: none;
+    background-color: rgb(221, 137, 89);
+}
+.navbar_button1:hover{
+    appearance: none;
+    background-color: rgb(143, 78, 33);
+
+    border-radius: 15px;
+}
